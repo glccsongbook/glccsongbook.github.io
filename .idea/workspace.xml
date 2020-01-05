@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1d9aaaf-c6d9-41d5-b457-3ec46bf7c3dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SongTitles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SongTitles.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SongToBeAdded.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SongToBeAdded.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/english.html" beforeDir="false" afterPath="$PROJECT_DIR$/english.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +13,6 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
   </component>
   <component name="ProjectId" id="1TrvJPE82zI5QTwQCL7DkdTjS3E" />
   <component name="PropertiesComponent">
@@ -77,11 +68,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578233534005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578233534005" />
   </component>
   <component name="masterDetails">
     <states>
