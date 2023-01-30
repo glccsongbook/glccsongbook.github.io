@@ -1,4 +1,4 @@
-import com.sun.xml.internal.bind.v2.TODO;
+//import com.sun.xml.internal.bind.v2.TODO;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -35,7 +35,7 @@ public class MenuCompiler {
 
     public static void compileMenu() {
         //Step 1. Create menu page
-        WriteFile menuHeader = new WriteFile("english.html");
+        WriteFile menuHeader = new WriteFile(MENUFILENAME);
         try {
             menuHeader.writeToFile(MenuHeader.compileHeader());
         } catch (IOException e) {
@@ -49,14 +49,14 @@ public class MenuCompiler {
             System.out.println(songList.get(i));
         }
         */
-        WriteFile menuBody = new WriteFile("english.html", true);
+        WriteFile menuBody = new WriteFile(MENUFILENAME, true);
         try {
             menuBody.writeToFile(MenuBody.createBody());
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        WriteFile menuFooter = new WriteFile("english.html", true);
+        WriteFile menuFooter = new WriteFile(MENUFILENAME, true);
         try {
             menuFooter.writeToFile(MenuFooter.compileFooter());
         } catch (IOException e) {
