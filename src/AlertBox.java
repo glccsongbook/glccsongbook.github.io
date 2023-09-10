@@ -8,13 +8,15 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+import java.util.Objects;
+
 /**
  * Created by Yeo Kangwei on 3/7/2017.
  */
 public class AlertBox {
 
     private static AlertBox instance = new AlertBox();
-    private String css = this.getClass().getResource("UI.css").toExternalForm();
+    private String css = Objects.requireNonNull(this.getClass().getResource("UI.css")).toExternalForm();
 
     /**
      * Ensures that AlertBox adheres to a singleton pattern
