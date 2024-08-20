@@ -20,12 +20,12 @@
   $('.bs-component [data-toggle="popover"]').popover();
   $('.bs-component [data-toggle="tooltip"]').tooltip();
 
-  $(".bs-component").hover(function(){
-    $(this).append($button);
-    $button.show();
-  }, function(){
-    $button.hide();
-  });
+  // $(".bs-component").hover(function(){
+  //   $(this).append($button);
+  //   $button.show();
+  // }, function(){
+  //   $button.hide();
+  // });
 
   function cleanSource(html) {
     var lines = html.split(/\n/);
