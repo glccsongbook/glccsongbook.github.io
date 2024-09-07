@@ -171,7 +171,7 @@ public class DBManager {
     }
 
     public static String sanitiseString(String title) {
-        String allowedCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 (),?." + "\'";
+        String allowedCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 (),?.[]" + "\'";
         String result = "";
         for (int i = 0; i < title.length(); i++) {
             if (allowedCharacters.indexOf(title.charAt(i)) >= 0) {
