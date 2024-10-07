@@ -5,11 +5,11 @@ public class MenuFooter {
 
 //    final static String STRING1 = "\t</body>\n";
 //    final static String STRING2 = "\t<!-- =======================================================================-->\n";
-    final static String STRING1 = " </div> <!-- div to close the container -->\n";
-    final static String STRING2 = " <script src=\"./js/jquery-1.10.2.min.js\"></script>\n";
-    final static String STRING3 = " <script src=\"./js/bootstrap.min.js\"></script>\n";
-    final static String STRING4 = " <script src=\"./js/bootswatch.js\"></script>\n";
-    final static String STRING5 = " </body>\n";
+    final static String STRING1 = "  </div> <!-- div to close the container -->\n";
+    final static String STRING2 = "  <script src=\"./js/jquery-1.10.2.min.js\"></script>\n";
+    final static String STRING3 = "  <script src=\"./js/bootstrap.min.js\"></script>\n";
+    final static String STRING4 = "  <script src=\"./js/bootswatch.js\"></script>\n";
+    final static String STRING5 = "  </body>\n";
     final static String STRING6 = "</html>\n";
 //    final static String STRING1 = "\t</div> <!-- div to close the container -->\n";
 //    final static String STRING2 = "\t<script src=\"./js/jquery-1.10.2.min.js\"></script>\n";

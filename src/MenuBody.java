@@ -136,31 +136,31 @@ public class MenuBody {
         String STRING1 = "";
         String STRING7 = "";
         if (Character.isDigit(firstChar)) {
-            STRING1 = " <!-- Tables (English 0-9)\n";
-            STRING7 = "      <h4>0-9</h4>\n";
+            STRING1 = "  <!-- Tables (English 0-9)\n";
+            STRING7 = "            <h4>0-9</h4>\n";
 //            STRING1 = "\t<!-- Tables (English 0-9)\n";
 //            STRING7 = "\t\t\t\t\t\t<h4>0-9</h4>\n";
         } else {
-            STRING1 = " <!-- Tables (English " + firstChar + ")\n";
-            STRING7 = "      <h4>"+firstChar+"</h4>\n";
+            STRING1 = "  <!-- Tables (English " + firstChar + ")\n";
+            STRING7 = "            <h4>"+firstChar+"</h4>\n";
 //            STRING1 = "\t<!-- Tables (English " + firstChar + ")\n";
 //            STRING7 = "\t\t\t\t\t\t<h4>"+firstChar+"</h4>\n";
         }
-        final String STRING2 = "  ================================================== -->\n";
-        final String STRING3 = "  <div class=\"bs-docs-section\">\n";
-        final String STRING4 = "   <div class=\"row\">\n";
-        final String STRING5 = "    <div class=\"col-lg-12\">\n";
-        final String STRING6 = "     <div class=\"page-header\">\n";
-        final String STRING8 = "     </div>\n";
-        final String STRING9 = "     <div class=\"bs-component\">\n";
-        final String STRING10 = "      <table class=\"table table-striped table-hover \">\n";
-        final String STRING11 = "       <thead>\n";
-        final String STRING12 = "        <tr>\n";
-        final String STRING13 = "         <th>#</th>\n";
-        final String STRING14 = "         <th>Title</th>\n";
-        final String STRING15 = "        </tr>\n";
-        final String STRING16 = "       </thead>\n";
-        final String STRING17 = "       <tbody>\n";
+        final String STRING2 = "    ================================================== -->\n";
+        final String STRING3 = "    <div class=\"bs-docs-section\">\n";
+        final String STRING4 = "      <div class=\"row\">\n";
+        final String STRING5 = "        <div class=\"col-lg-12\">\n";
+        final String STRING6 = "          <div class=\"page-header\">\n";
+        final String STRING8 = "          </div>\n";
+        final String STRING9 = "          <div class=\"bs-component\">\n";
+        final String STRING10 = "            <table class=\"table table-striped table-hover \">\n";
+        final String STRING11 = "              <thead>\n";
+        final String STRING12 = "                <tr>\n";
+        final String STRING13 = "                  <th>#</th>\n";
+        final String STRING14 = "                  <th>Title</th>\n";
+        final String STRING15 = "                </tr>\n";
+        final String STRING16 = "              </thead>\n";
+        final String STRING17 = "              <tbody>\n";
 //        final String STRING2 = "\t\t================================================== -->\n";
 //        final String STRING3 = "\t\t<div class=\"bs-docs-section\">\n";
 //        final String STRING4 = "\t\t\t<div class=\"row\">\n";
@@ -186,64 +186,64 @@ public class MenuBody {
         String STRING2 = "";
         String STRING3 = "";
         if (positionOfSong % 7 == 1) {
-            STRING1 = "        <tr>\n";
+            STRING1 = "                <tr>\n";
 //            STRING1 = "\t\t\t\t\t\t\t\t<tr>\n";
         } else if (positionOfSong % 7 == 2) {
-            STRING1 = "        <tr>\n";
+            STRING1 = "                <tr>\n";
 //            STRING1 = "\t\t\t\t\t\t\t\t<tr>\n";
         } else if (positionOfSong % 7 == 3) {
-            STRING1 = "        " + cssClassValues[0] + "\n";
+            STRING1 = "                " + cssClassValues[0] + "\n";
 //            STRING1 = "\t\t\t\t\t\t\t\t" + cssClassValues[0] + "\n";
         } else if (positionOfSong % 7 == 4) {
-            STRING1 = "        " + cssClassValues[1] + "\n";
+            STRING1 = "                " + cssClassValues[1] + "\n";
 //            STRING1 = "\t\t\t\t\t\t\t\t" + cssClassValues[1] + "\n";
         } else if (positionOfSong % 7 == 5) {
-            STRING1 = "        " + cssClassValues[2] + "\n";
+            STRING1 = "                " + cssClassValues[2] + "\n";
 //            STRING1 = "\t\t\t\t\t\t\t\t" + cssClassValues[2] + "\n";
         } else if (positionOfSong % 7 == 6) {
-            STRING1 = "        " + cssClassValues[3] + "\n";
+            STRING1 = "                " + cssClassValues[3] + "\n";
 //            STRING1 = "\t\t\t\t\t\t\t\t" + cssClassValues[3] + "\n";
         } else if (positionOfSong % 7 == 0) {
-            STRING1 = "        " + cssClassValues[4] + "\n";
+            STRING1 = "                " + cssClassValues[4] + "\n";
 //            STRING1 = "\t\t\t\t\t\t\t\t" + cssClassValues[4] + "\n";
         }
 
         if (Character.isDigit(firstChar)) {
-            STRING2 = "         <td>" + positionOfSong + "</td>\n";
+            STRING2 = "                  <td>" + positionOfSong + "</td>\n";
 //            STRING2 = "\t\t\t\t\t\t\t\t\t<td>" + positionOfSong + "</td>\n";
             String makeAllSmallLetters = songTitle.toLowerCase();
             String replaceSpaceswithHyphen = makeAllSmallLetters.replace(" ", "-");
 
-            STRING3 = "         <td><a href=\"./englishsongs/0-9/" + replaceSpaceswithHyphen + ".html\">" + songTitle
+            STRING3 = "                  <td><a href=\"./englishsongs/0-9/" + replaceSpaceswithHyphen + ".html\">" + songTitle
                     + "</a></td>\n";
 //            STRING3 = "\t\t\t\t\t\t\t\t\t<td><a href=\"./englishsongs/0-9/" + replaceSpaceswithHyphen + ".html\">" + songTitle
 //                    + "</a></td>\n";
         } else {
-            STRING2 = "         <td>" + firstChar + positionOfSong + "</td>\n";
+            STRING2 = "                  <td>" + positionOfSong + "</td>\n";
 //            STRING2 = "\t\t\t\t\t\t\t\t\t<td>" + firstChar + positionOfSong + "</td>\n";
             //String removeAllSpecialCharacters = songTitle.replaceAll("[^a-zA-Z0-9\" \"]", "");
             String makeAllSmallLetters = songTitle.toLowerCase();
             String replaceSpaceswithHyphen = makeAllSmallLetters.replace(" ", "-");
-            STRING3 = "         <td><a href=\"./englishsongs/" + firstChar + "/" + replaceSpaceswithHyphen + ".html\">" + songTitle
+            STRING3 = "                  <td><a href=\"./englishsongs/" + firstChar + "/" + replaceSpaceswithHyphen + ".html\">" + songTitle
                     + "</a></td>\n";
 //            STRING3 = "\t\t\t\t\t\t\t\t\t<td><a href=\"./englishsongs/" + firstChar + "/" + replaceSpaceswithHyphen + ".html\">" + songTitle
 //                    + "</a></td>\n";
         }
-        final String STRING4 = "        </tr>\n";
+        final String STRING4 = "                </tr>\n";
 //        final String STRING4 = "\t\t\t\t\t\t\t\t</tr>\n";
         return STRING1 + STRING2 + STRING3 + STRING4 + "\n";
     }
 
     private static String createTableFooter() {
-        final String STRING1 = "       </tbody>\n";
-        final String STRING2 = "      </table>\n";
-        final String STRING3 = "     </div>\n";
-        final String STRING4 = "     <ul class=\"list-unstyled\">\n";
-        final String STRING5 = "      <li class=\"pull-right\"><a href=\"#top\">Back to top</a></li>\n";
-        final String STRING6 = "     </ul>\n";
-        final String STRING7 = "    </div>\n";
-        final String STRING8 = "   </div>\n";
-        final String STRING9 = "  </div>\n";
+        final String STRING1 = "              </tbody>\n";
+        final String STRING2 = "            </table>\n";
+        final String STRING3 = "          </div>\n";
+        final String STRING4 = "          <ul class=\"list-unstyled\">\n";
+        final String STRING5 = "            <li class=\"pull-right\"><a href=\"#top\">Back to top</a></li>\n";
+        final String STRING6 = "          </ul>\n";
+        final String STRING7 = "        </div>\n";
+        final String STRING8 = "      </div>\n";
+        final String STRING9 = "    </div>\n";
 //        final String STRING1 = "\t\t\t\t\t\t\t</tbody>\n";
 //        final String STRING2 = "\t\t\t\t\t\t</table>\n";
 //        final String STRING3 = "\t\t\t\t\t</div>\n";
